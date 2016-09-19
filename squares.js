@@ -1,4 +1,4 @@
-var maxStars = 60;
+var maxStars = 100;
 var startingStars = 40;
 var starBurst = 15;
 var startX = Math.floor(screen.availWidth/10);
