@@ -106,7 +106,7 @@ function deleteCheck(star, i) {
       star.yPos > screen.availHeight * 1.3 ||
       star.xPos < -screen.availHeight * 1.3 ||
       star.yPos < -screen.availWidth * 1.3 ||
-      star.width > screen.availHeight * .6) {
+      star.width > screen.availHeight * .8) {
         stars.splice(i, 1);
       }
 }
